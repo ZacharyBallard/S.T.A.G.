@@ -1,0 +1,15 @@
+$color-primary: #22308c;
+$color-secondary: white;
+$color-dark: hsl(232, 93%, 24%);
+$doc-font: 'Kufam', cursive;
+
+header {
+    font-family: $doc-font;
+}
+
+.jumbotron {
+    padding: 15px;
+    background-color: slategray;
+    color: white;
+    margin: 0;
+}
