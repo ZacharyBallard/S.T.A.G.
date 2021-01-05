@@ -4,7 +4,7 @@ header {
     font-size: 80px; }
 
 body {
-  background-color: slategray; }
+  background-color: #a2a9b1; }
 
 .jumbotron {
   padding: 15px;
@@ -14,7 +14,7 @@ body {
 
 .navbar {
   background-color: darkslategray; }
-  .navbar li:hover {
+  .navbar a:hover {
     background-color: rgba(47, 97, 97, 0.5); }
 
 .carousel-caption {
@@ -44,10 +44,15 @@ a, a:hover {
   background-color: darkslategray;
   color: white; }
 
+.card {
+  border-radius: 10px;
+  border: solid darkslategray; }
+
 .card-title {
   text-align: center;
   padding: 10px;
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px; }
 
 .site-footer {
   background-color: darkslategray;

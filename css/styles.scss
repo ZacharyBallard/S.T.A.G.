@@ -1,5 +1,6 @@
 $color-primary: slategray;
 $color-secondary: darkslategray;
+$color-tertiary: rgb(162, 169, 177);
 $color-dark: hsl(232, 93%, 24%);
 $color-black-transparent: rgba(0, 0, 0, 0.5);
 $color-secondary-transparent: rgba( 47, 97, 97, 0.5);
@@ -14,7 +15,7 @@ header {
 }
 
 body {
-    background-color: $color-primary;
+    background-color: $color-tertiary;
 }
 
 .jumbotron {
@@ -27,7 +28,7 @@ body {
 .navbar {
     background-color: $color-secondary;
 
-    li:hover {
+    a:hover {
         background-color: $color-secondary-transparent;
     }
 }
@@ -68,10 +69,16 @@ a, a:hover {
     }
 }
 
+.card {
+    border-radius: 10px;
+    border: solid $color-secondary;
+}
+
 .card-title{
     text-align: center;
     padding: 10px;
     background-color: $color-black-transparent;
+    border-radius: 10px;
 }
 
 .site-footer{
