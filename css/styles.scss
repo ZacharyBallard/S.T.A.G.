@@ -1,5 +1,5 @@
-$color-primary: #22308c;
-$color-secondary: white;
+$color-primary: slategray;
+$color-secondary: darkslategray;
 $color-dark: hsl(232, 93%, 24%);
 $doc-font: 'Kufam', cursive;
 
@@ -12,4 +12,8 @@ header {
     background-color: slategray;
     color: white;
     margin: 0;
+}
+
+.navbar {
+    background-color: $color-secondary;
 }
