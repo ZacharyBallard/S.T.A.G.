@@ -2,6 +2,8 @@ $color-primary: slategray;
 $color-secondary: darkslategray;
 $color-dark: hsl(232, 93%, 24%);
 $color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-secondary-transparent: rgba( 47, 97, 97, 0.5);
+
 $doc-font: 'Kufam', cursive;
 
 header {
@@ -24,6 +26,10 @@ body {
 
 .navbar {
     background-color: $color-secondary;
+
+    li:hover {
+        background-color: $color-secondary-transparent;
+    }
 }
 
 .carousel-caption {
@@ -70,6 +76,6 @@ a, a:hover {
 
 .site-footer{
     background-color: $color-secondary;
-    padding: 50px;
+    padding: 35px;
     color: white;
 }
