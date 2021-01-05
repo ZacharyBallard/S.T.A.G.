@@ -8,6 +8,10 @@ header {
     font-family: $doc-font;
 }
 
+body {
+    background-color: $color-primary;
+}
+
 .jumbotron {
     padding: 15px;
     background-color: slategray;
@@ -24,7 +28,16 @@ header {
 }
 
 .carousel {
+    border-radius: 10px;
     border: solid $color-secondary;
+}
+
+.carousel-item img{
+    border-radius: 8px;
+}
+
+#carouselButton {
+    border-radius: 10px;
 }
 
 a, a:hover {
@@ -44,4 +57,10 @@ a, a:hover {
         background-color: $color-secondary;
         color: white;
     }
+}
+
+.card-title{
+    text-align: center;
+    padding: 10px;
+    background-color: $color-black-transparent;
 }

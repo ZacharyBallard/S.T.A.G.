@@ -1,6 +1,9 @@
 header {
   font-family: "Kufam", cursive; }
 
+body {
+  background-color: slategray; }
+
 .jumbotron {
   padding: 15px;
   background-color: slategray;
@@ -14,7 +17,14 @@ header {
   background-color: rgba(0, 0, 0, 0.5); }
 
 .carousel {
+  border-radius: 10px;
   border: solid darkslategray; }
+
+.carousel-item img {
+  border-radius: 8px; }
+
+#carouselButton {
+  border-radius: 10px; }
 
 a, a:hover {
   color: inherit;
@@ -29,3 +39,8 @@ a, a:hover {
 #loginModal .modal-header {
   background-color: darkslategray;
   color: white; }
+
+.card-title {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5); }
