@@ -6,6 +6,9 @@ $doc-font: 'Kufam', cursive;
 
 header {
     font-family: $doc-font;
+    h1 {
+        font-size: 80px;
+    }
 }
 
 body {
@@ -63,4 +66,10 @@ a, a:hover {
     text-align: center;
     padding: 10px;
     background-color: $color-black-transparent;
+}
+
+.site-footer{
+    background-color: $color-secondary;
+    padding: 50px;
+    color: white;
 }

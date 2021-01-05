@@ -1,5 +1,7 @@
 header {
   font-family: "Kufam", cursive; }
+  header h1 {
+    font-size: 80px; }
 
 body {
   background-color: slategray; }
@@ -44,3 +46,8 @@ a, a:hover {
   text-align: center;
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.5); }
+
+.site-footer {
+  background-color: darkslategray;
+  padding: 50px;
+  color: white; }
