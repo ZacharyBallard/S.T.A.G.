@@ -58,3 +58,9 @@ a, a:hover {
   background-color: darkslategray;
   padding: 35px;
   color: white; }
+
+.breadcrumb {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white; }
+  .breadcrumb .active {
+    color: rgba(255, 255, 255, 0.705); }
