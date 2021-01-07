@@ -170,3 +170,21 @@ a, a:hover {
     padding: 0;
     border-radius: 50%;
 }
+
+// contact.html
+
+#contactForm{
+    background-color: $color-black-transparent;
+    border-radius: 15px;
+    margin: auto; 
+    padding: 20px;
+    color: white;
+}
+
+#contactHeader{
+    background-color: $color-black-transparent;
+    border-radius: 15px;
+    margin: auto; 
+    padding: 20px;
+    color: white;
+}

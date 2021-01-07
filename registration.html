@@ -101,72 +101,70 @@
                 </ol>
             </div>
         </div>
-
     </div>
 <!-- registration form -->
-    <div class="row row-content">
-        <div class="col-12">
-            <h1 id="regHeader" class="text-center p4-4 mx-5"><strong>Welcome to STAG</strong></h1>
-            <hr />
-        </div>
-        <div class="container">
-            <form id="regForm">
-                <div class="form-group row">
-                    <label for="firstName" class="col-md-2 col-form-label">First Name </label>
-                    <div class="col-md-10">
-                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Jane"/>
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-12 text-center">
+                <h2 id="contactHeader">Welcome to STAG</h2>
+                <hr />
+            </div>
+            <div class="col">
+                <form id="regForm">
+                    <div class="form-group row">
+                        <label for="firstName" class="col-md-2 col-form-label">First Name </label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Jane"/>
+                        </div>
+                    </div> 
+                    <div class="form-group row">
+                        <label for="lastName" class="col-md-2 col-form-label">Last Name </label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Doe"/>
+                        </div>
+                    </div> 
+                    <div class="form-group row">
+                        <label for="userName" class="col-md-2 col-form-label"> Username <i class="fa fas fa-question-circle fa-lg" data-bs-toggle="tooltip" data-bs-placement="right" title="Username must be alphanumerical."></i></label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="userName" name="userName" placeholder="JaneDoe"/>
+                        </div>
+                    </div> 
+                    <div class="form-group row">
+                        <label for="email" class="col-md-2 col-form-label">Email</label> 
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="janedoe23@gmail.com"/>
+                        </div>
                     </div>
-                </div> 
-                <div class="form-group row">
-                    <label for="lastName" class="col-md-2 col-form-label">Last Name </label>
-                    <div class="col-md-10">
-                        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Doe"/>
+                    <div class="form-group row">
+                        <label for="password" class="col-md-2 col-form-label"> Password <i class="fa fas fa-question-circle fa-lg" data-bs-toggle="tooltip" data-bs-placement="right" title="Password must be a minimum of 8 characters and contain at least one number (1,2,3) and one special character (#,$,%)."></i></label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="password" name="password" placeholder="Password"/>
+                        </div>
+                    </div> 
+                    <div class="form-group row">
+                        <label for="confirmPassword" class="col-md-2 col-form-label"> Confirm Password </label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="re-type password for confirmation"/>
+                        </div>
+                    </div> 
+                    <div class="row form-group">
+                        <label class="col-12 col-md-2 col-form-label"> Profession</label>
+                        <div class="col-12 col-md-10 btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-secondary">
+                                <input type="radio" name="professionType" id="teacherType" autocomplete="off" checked> Teacher
+                            </label>
+                            <label class="btn btn-secondary">
+                                <input type="radio" name="professionType" id="subType" autocomplete="off"> Substitute
+                            </label>
+                        </div>
                     </div>
-                </div> 
-                <div class="form-group row">
-                    <label for="userName" class="col-md-2 col-form-label"> Username <i class="fa fas fa-question-circle fa-lg" data-bs-toggle="tooltip" data-bs-placement="right" title="Username must be alphanumerical."></i></label>
-                    <div class="col-md-10">
-                        <input type="text" class="form-control" id="userName" name="userName" placeholder="JaneDoe"/>
+                    <div id="regSubmit" class="form-group row">
+                        <button class="btn btn-success btn-lg">Submit</button>
                     </div>
-                </div> 
-                <div class="form-group row">
-                    <label for="email" class="col-md-2 col-form-label">Email</label> 
-                    <div class="col-md-10">
-                        <input type="email" class="form-control" id="email" name="email" placeholder="janedoe23@gmail.com"/>
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="password" class="col-md-2 col-form-label"> Password <i class="fa fas fa-question-circle fa-lg" data-bs-toggle="tooltip" data-bs-placement="right" title="Password must be a minimum of 8 characters and contain at least one number (1,2,3) and one special character (#,$,%)."></i></label>
-                    <div class="col-md-10">
-                        <input type="text" class="form-control" id="password" name="password" placeholder="Password"/>
-                    </div>
-                </div> 
-                <div class="form-group row">
-                    <label for="confirmPassword" class="col-md-2 col-form-label"> Confirm Password </label>
-                    <div class="col-md-10">
-                        <input type="text" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="re-type password for confirmation"/>
-                    </div>
-                </div> 
-                <div class="row form-group">
-                    <label class="col-12 col-md-2 col-form-label"> Profession</label>
-                    <div class="col-12 col-md-10 btn-group btn-group-toggle" data-toggle="buttons">
-                        <label class="btn btn-secondary">
-                            <input type="radio" name="professionType" id="teacherType" autocomplete="off" checked> Teacher
-                        </label>
-                        <label class="btn btn-secondary">
-                            <input type="radio" name="professionType" id="subType" autocomplete="off"> Substitute
-                        </label>
-                    </div>
-                </div>
-                <div id="regSubmit" class="form-group row">
-                    <button class="btn btn-success btn-lg">Submit</button>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
     </div>
-
-    
-
 <!-- footer -->
 
     <footer class="site-footer mt-4">

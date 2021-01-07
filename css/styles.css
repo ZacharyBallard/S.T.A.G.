@@ -105,3 +105,17 @@ a, a:hover {
   border: solid 10px slategray;
   padding: 0;
   border-radius: 50%; }
+
+#contactForm {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  margin: auto;
+  padding: 20px;
+  color: white; }
+
+#contactHeader {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  margin: auto;
+  padding: 20px;
+  color: white; }
