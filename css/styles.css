@@ -6,6 +6,22 @@ header {
 body {
   background-color: #a2a9b1; }
 
+a, a:hover {
+  color: inherit;
+  text-decoration: none; }
+
+::-webkit-input-placeholder {
+  font-style: italic; }
+
+:-moz-placeholder {
+  font-style: italic; }
+
+::-moz-placeholder {
+  font-style: italic; }
+
+:-ms-input-placeholder {
+  font-style: italic; }
+
 .jumbotron {
   padding: 15px;
   background-color: slategray;
@@ -16,6 +32,12 @@ body {
   background-color: darkslategray; }
   .navbar a:hover {
     background-color: rgba(47, 97, 97, 0.5); }
+
+.breadcrumb {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white; }
+  .breadcrumb .active {
+    color: rgba(255, 255, 255, 0.705); }
 
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5); }
@@ -29,10 +51,6 @@ body {
 
 #carouselButton {
   border-radius: 10px; }
-
-a, a:hover {
-  color: inherit;
-  text-decoration: none; }
 
 #carouselButton {
   position: absolute;
@@ -59,8 +77,31 @@ a, a:hover {
   padding: 35px;
   color: white; }
 
-.breadcrumb {
+#regHeader {
   background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  margin: auto;
+  padding: 20px;
   color: white; }
-  .breadcrumb .active {
-    color: rgba(255, 255, 255, 0.705); }
+
+#regForm {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  margin: auto;
+  padding: 50px;
+  color: white; }
+
+#regSubmit {
+  position: relative;
+  margin: auto;
+  padding-left: 2px; }
+
+#aboutSTAG {
+  border: solid 10px slategray;
+  padding: 0;
+  border-radius: 50%; }
+
+#aboutDev {
+  border: solid 10px slategray;
+  padding: 0;
+  border-radius: 50%; }

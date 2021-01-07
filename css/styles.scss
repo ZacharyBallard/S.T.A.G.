@@ -1,11 +1,15 @@
+// variables
+
 $color-primary: slategray;
 $color-secondary: darkslategray;
 $color-tertiary: rgb(162, 169, 177);
 $color-dark: hsl(232, 93%, 24%);
 $color-black-transparent: rgba(0, 0, 0, 0.5);
 $color-secondary-transparent: rgba( 47, 97, 97, 0.5);
-
 $doc-font: 'Kufam', cursive;
+
+
+// all
 
 header {
     font-family: $doc-font;
@@ -18,12 +22,37 @@ body {
     background-color: $color-tertiary;
 }
 
+a, a:hover {
+    color: inherit;
+    text-decoration: none;
+  }
+
+// placeholders to italic 
+
+::-webkit-input-placeholder {
+   font-style: italic;
+}
+:-moz-placeholder {
+   font-style: italic;  
+}
+::-moz-placeholder {
+   font-style: italic;  
+}
+:-ms-input-placeholder {  
+   font-style: italic; 
+}
+
+// jumbotron
+
 .jumbotron {
     padding: 15px;
     background-color: slategray;
     color: white;
     margin: 0;
 }
+
+
+// nav-bar
 
 .navbar {
     background-color: $color-secondary;
@@ -32,6 +61,18 @@ body {
         background-color: $color-secondary-transparent;
     }
 }
+
+// breadcrumbs
+.breadcrumb{
+    background-color: $color-black-transparent;
+    color: white;
+
+    .active {
+        color: rgba(255, 255, 255, 0.705);
+    }
+}
+
+// home-carousel
 
 .carousel-caption {
     background-color: $color-black-transparent;
@@ -50,11 +91,6 @@ body {
     border-radius: 10px;
 }
 
-a, a:hover {
-    color: inherit;
-    text-decoration: none;
-  }
-
 #carouselButton {
     position: absolute;
     right: 0;
@@ -62,12 +98,16 @@ a, a:hover {
     z-index:100;
 }
 
+// login modal
+
 #loginModal {
     .modal-header{
         background-color: $color-secondary;
         color: white;
     }
 }
+
+// cards
 
 .card {
     border-radius: 10px;
@@ -81,17 +121,52 @@ a, a:hover {
     border-radius: 10px;
 }
 
+// footer
+
 .site-footer{
     background-color: $color-secondary;
     padding: 35px;
     color: white;
 }
 
-.breadcrumb{
-    background-color: $color-black-transparent;
-    color: white;
 
-    .active {
-        color: rgba(255, 255, 255, 0.705);
-    }
+// registration.html
+
+
+#regHeader{
+    background-color: $color-black-transparent;
+    border-radius: 15px;
+    margin: auto; 
+    padding: 20px;
+    color: white;
+}
+
+
+#regForm{
+    background-color: $color-black-transparent;
+    border-radius: 15px;
+    margin: auto; 
+    padding: 50px;
+    color: white;
+}
+
+#regSubmit{
+    position: relative;
+    margin: auto;
+    padding-left: 2px;
+}
+
+// about.html
+
+#aboutSTAG{
+    border: solid 10px $color-primary;
+    padding: 0;
+    border-radius: 50%;
+
+}
+
+#aboutDev{
+    border: solid 10px $color-primary;
+    padding: 0;
+    border-radius: 50%;
 }
