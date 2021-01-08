@@ -40,13 +40,12 @@ a, a:hover {
     background-color: #b2bfcc; }
 
 .breadcrumb {
-  background-color: darkkhaki;
-  color: white;
-  border-right: solid 2px rgba(47, 97, 97, 0.5);
-  border-left: solid 2px rgba(47, 97, 97, 0.5);
-  border-bottom: solid 2px rgba(47, 97, 97, 0.5); }
+  background-color: #eeeeee;
+  color: darkkhaki;
+  border: solid 1px #8b95a0;
+  border-top: none; }
   .breadcrumb .active {
-    color: rgba(255, 255, 255, 0.705); }
+    color: darkkhaki; }
 
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5); }
@@ -127,8 +126,10 @@ a, a:hover {
   color: white; }
 
 .servicesCard {
-  border-radius: 8px; }
+  border-radius: 8px;
+  background-color: #8b95a0;
+  color: white; }
   .servicesCard .card-body {
-    background-color: #a2a9b1;
+    background-color: #eeeeee;
     border-radius: 8px;
     color: black; }

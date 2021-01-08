@@ -3,7 +3,7 @@
 $color-primary: darkkhaki;
 $color-secondary: rgb(139, 149, 160);
 $color-tertiary: rgb(162, 169, 177);
-$color-dark: hsl(232, 93%, 24%);
+$color-body-background:rgb(238, 238, 238);
 $color-black-transparent: rgba(0, 0, 0, 0.5);
 $color-secondary-transparent: rgba( 47, 97, 97, 0.5);
 $doc-font: 'Quicksand', sans-serif;
@@ -20,7 +20,7 @@ header {
 
 body {
     font-family: $doc-font;
-    background-color: rgb(238, 238, 238);
+    background-color: $color-body-background;
 }
 
 a, a:hover {
@@ -71,14 +71,13 @@ a, a:hover {
 
 // breadcrumbs
 .breadcrumb{
-    background-color: $color-primary;
-    color: white;
-    border-right: solid 2px $color-secondary-transparent;
-    border-left: solid 2px $color-secondary-transparent;
-    border-bottom: solid 2px $color-secondary-transparent;
+    background-color: $color-body-background;
+    color: $color-primary;
+    border: solid 1px $color-secondary;
+    border-top: none;
 
     .active {
-        color: rgba(255, 255, 255, 0.705);
+        color: darkkhaki;
     }
 }
 
@@ -110,7 +109,7 @@ a, a:hover {
         margin: auto;
         padding: 50px;
     }
-    
+
     .tab-content {
         border: 1px solid #DDD;
         border-top: none;
@@ -199,9 +198,11 @@ a, a:hover {
 
 .servicesCard{
     border-radius: 8px;
+    background-color: $color-secondary;
+    color: white;
 
     .card-body {
-        background-color: $color-tertiary;
+        background-color: rgb(238, 238, 238);
         border-radius: 8px;
         color: black;
     }
