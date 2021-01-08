@@ -63,9 +63,14 @@ a, a:hover {
   bottom: 0;
   z-index: 100; }
 
-#loginModal .modal-header {
-  background-color: #8b95a0;
-  color: white; }
+#loginModal .modal-content {
+  margin: auto;
+  padding: 50px; }
+
+#loginModal .tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px; }
 
 .index-card {
   border-radius: 9px; }

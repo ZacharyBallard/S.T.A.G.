@@ -104,12 +104,19 @@ a, a:hover {
 }
 
 // login modal
-
 #loginModal {
-    .modal-header{
-        background-color: $color-secondary;
-        color: white;
+
+    .modal-content{
+        margin: auto;
+        padding: 50px;
     }
+    
+    .tab-content {
+        border: 1px solid #DDD;
+        border-top: none;
+        padding: 10px;
+    }
+
 }
 
 // index.cards

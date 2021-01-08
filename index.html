@@ -28,47 +28,97 @@
     </header>
 
 <!-- login modal -->
+    <div class="container">
     <div id="loginModal" class="modal fade" role="dialog">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title">Login</h3>
+                    <h3 class="modal-title">Welcome!</h3>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
                     <div class="container-fluid">
-                        <form>
-                            <div class="form-row">
-                                <div class="form-group col-12">
-                                    <label class="sr-only" for="loginEmail">Email Address</label>
-                                    <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
-                                </div>
-                                <div class="form-group col-12">
-                                    <label class="sr-only" for="loginPassword">Password</label>
-                                    <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox">
-                                        <label class="form-check-label"> Remember me</label>
+                        <div class="row">
+                            <div class="col-12 row-content">
+                                <ul class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#teachLogin" role="tab" data-toggle="tab">Teacher</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#subLogin" role="tab" data-toggle="tab">Substitute</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane fade show active" id="teachLogin">
+                                        <!-- put form for teacher login -->
+                                        <form>
+                                            <div class="form-row">
+                                                <div class="form-group col-12">
+                                                    <label class="sr-only" for="teacherLoginEmail">Email Address</label>
+                                                    <input type="email" class="form-control form-control-sm" id="teacherLoginEmail" placeholder="Enter email">
+                                                </div>
+                                                <div class="form-group col-12">
+                                                    <label class="sr-only" for="teacherLoginPassword">Password</label>
+                                                    <input type="password" class="form-control form-control-sm" id="teacherLoginPassword" placeholder="Password">
+                                                </div>
+                                                <div class="col">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox">
+                                                        <label class="form-check-label"> Remember me</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                                <button type="submit" class="btn btn-success btn-sm ml-1">Sign in</button>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="col-11">
+                                                    <a href="registration.html"><p>New to STAG?</p></a>
+                                                    <i class="fa fas fa-question-circle fa-lg" data-bs-toggle="tooltip" data-bs-placement="right" title="Login above or click 'New to STAG' to create a profile."></i>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="subLogin">
+                                        <!-- put form for sub login -->
+                                        <form>
+                                            <div class="form-row">
+                                                <div class="form-group col-12">
+                                                    <label class="sr-only" for="subLoginEmail">Email Address</label>
+                                                    <input type="email" class="form-control form-control-sm" id="subLoginEmail" placeholder="Enter email">
+                                                </div>
+                                                <div class="form-group col-12">
+                                                    <label class="sr-only" for="subLoginPassword">Password</label>
+                                                    <input type="password" class="form-control form-control-sm" id="subLoginPassword" placeholder="Password">
+                                                </div>
+                                                <div class="col">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox">
+                                                        <label class="form-check-label"> Remember me</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                                <button type="submit" class="btn btn-success btn-sm ml-1">Sign in</button>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="col-11">
+                                                    <a href="registration.html"><p>New to STAG?</p></a>
+                                                    <i class="fa fas fa-question-circle fa-lg" data-bs-toggle="tooltip" data-bs-placement="right" title="Login above or click 'New to STAG' to create a profile."></i>
+                                                </div>
+                                            </div>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-row">
-                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-                                <button type="submit" class="btn btn-success btn-sm ml-1">Sign in</button>
-                            </div>
-                            <div class="form-row">
-                                <div class="col-11">
-                                    <a href="registration.html"><p>New to STAG?</p></a>
-                                    <i class="fa fas fa-question-circle fa-lg" data-bs-toggle="tooltip" data-bs-placement="right" title="Login above or click 'New to STAG' to create a profile."></i>
-                                </div>
-                            </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
 <!-- nav bar -->
