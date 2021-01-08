@@ -64,8 +64,11 @@ a, a:hover {
 
 // breadcrumbs
 .breadcrumb{
-    background-color: $color-black-transparent;
+    background-color: $color-primary;
     color: white;
+    border-right: solid 2px $color-secondary-transparent;
+    border-left: solid 2px $color-secondary-transparent;
+    border-bottom: solid 2px $color-secondary-transparent;
 
     .active {
         color: rgba(255, 255, 255, 0.705);
@@ -107,14 +110,14 @@ a, a:hover {
     }
 }
 
-// cards
+// index.cards
 
-.card {
+.index-card {
     border-radius: 10px;
     border: solid $color-secondary;
 }
 
-.card-title{
+.index-cardTitle{
     text-align: center;
     padding: 10px;
     background-color: $color-black-transparent;
@@ -187,4 +190,16 @@ a, a:hover {
     margin: auto; 
     padding: 20px;
     color: white;
+}
+
+// services
+
+.servicesCard{
+    border-radius: 8px;
+
+    .card-body {
+        background-color: $color-tertiary;
+        border-radius: 8px;
+        color: black;
+    }
 }
