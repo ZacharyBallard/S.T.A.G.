@@ -106,6 +106,13 @@ a, a:hover {
     z-index:100;
 }
 
+.carousel-control-prev-icon{
+    background-color:$color-black-transparent;
+}
+.carousel-control-next-icon{
+    background-color:$color-black-transparent;
+}
+
 // login modal
 #loginModal {
     .tab-content {

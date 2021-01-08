@@ -64,6 +64,12 @@ a, a:hover {
   bottom: 0;
   z-index: 100; }
 
+.carousel-control-prev-icon {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); }
+
 #loginModal .tab-content {
   border: 1px solid #DDD;
   border-top: none;
