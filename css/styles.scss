@@ -104,16 +104,15 @@ a, a:hover {
 
 // login modal
 #loginModal {
-
-    .modal-content{
-        margin: auto;
-        padding: 50px;
-    }
-
     .tab-content {
         border: 1px solid #DDD;
         border-top: none;
         padding: 10px;
+    }
+
+    button[type="submit"]{
+        background-color: $color-primary;
+        border: darkkhaki solid;
     }
 
 }
@@ -182,21 +181,27 @@ a, a:hover {
 
 // contact.html
 
-#contactForm{
-    background-color: $color-black-transparent;
+#contactHeader{
+    background-color: $color-secondary;
     border-radius: 15px;
     margin: auto; 
     padding: 20px;
     color: white;
 }
 
-#contactHeader{
-    background-color: $color-black-transparent;
+#contactForm{
+    background-color: $color-secondary;
     border-radius: 15px;
     margin: auto; 
     padding: 20px;
     color: white;
+    button{
+        background-color: $color-primary;
+        border: darkkhaki solid;
+    }
 }
+
+
 
 // services.html
 

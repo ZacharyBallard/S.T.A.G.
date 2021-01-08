@@ -62,14 +62,14 @@ a, a:hover {
   bottom: 0;
   z-index: 100; }
 
-#loginModal .modal-content {
-  margin: auto;
-  padding: 50px; }
-
 #loginModal .tab-content {
   border: 1px solid #DDD;
   border-top: none;
   padding: 10px; }
+
+#loginModal button[type="submit"] {
+  background-color: darkkhaki;
+  border: darkkhaki solid; }
 
 .index-card {
   border-radius: 9px; }
@@ -114,19 +114,22 @@ a, a:hover {
   padding: 0;
   border-radius: 50%; }
 
-#contactForm {
-  background-color: rgba(0, 0, 0, 0.5);
+#contactHeader {
+  background-color: #8b95a0;
   border-radius: 15px;
   margin: auto;
   padding: 20px;
   color: white; }
 
-#contactHeader {
-  background-color: rgba(0, 0, 0, 0.5);
+#contactForm {
+  background-color: #8b95a0;
   border-radius: 15px;
   margin: auto;
   padding: 20px;
   color: white; }
+  #contactForm button {
+    background-color: darkkhaki;
+    border: darkkhaki solid; }
 
 .servicesCard {
   border-radius: 8px;
