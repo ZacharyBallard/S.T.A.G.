@@ -56,6 +56,10 @@ a, a:hover {
     background-color: $color-primary;
     color: white;
     margin: 0;
+
+    img {
+        height: 150px;
+    }
 }
 
 
@@ -120,6 +124,7 @@ a, a:hover {
 // index.cards
 
 .index-card {
+    color: white;
     border-radius: 9px;
     img {
         border-radius: 9px;

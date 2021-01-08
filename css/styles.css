@@ -33,6 +33,8 @@ a, a:hover {
   background-color: darkkhaki;
   color: white;
   margin: 0; }
+  .jumbotron img {
+    height: 150px; }
 
 .navbar {
   background-color: #8b95a0; }
@@ -72,6 +74,7 @@ a, a:hover {
   border: darkkhaki solid; }
 
 .index-card {
+  color: white;
   border-radius: 9px; }
   .index-card img {
     border-radius: 9px; }
