@@ -83,18 +83,21 @@ a, a:hover {
   border-radius: 10px; }
 
 #regHeader {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #8b95a0;
   border-radius: 15px;
   margin: auto;
   padding: 20px;
   color: white; }
 
 #regForm {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #8b95a0;
   border-radius: 15px;
   margin: auto;
   padding: 50px;
   color: white; }
+  #regForm button {
+    background-color: darkkhaki;
+    border: darkkhaki solid; }
 
 #regSubmit {
   position: relative;
