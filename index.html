@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/styles.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <title>STAG</title>
 </head>
 
@@ -18,13 +18,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                    <a href="#"><img src="img/stag_logo_white.PNG" class="image-fluid" style="height: 150px;"/></a> 
+                    <a href="#"><img src="img/stag_logo_original.jpg" class="image-fluid" style="height: 150px;"/></a> 
                 </div>
                 <div class="col text-right align-self-center">
                     <h1>STAG</h1>   
-                </div>
-                <div class="col-md-2 col-xl-2 align-self-center">
-                    <a class="text-nowrap btn btn-dark btn-md btn-lg" role="button" id="loginButton">Login</a>
                 </div>
             </div>
         </div>
@@ -77,24 +74,25 @@
 <!-- nav bar -->
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="img/stag_logo_icon_white.PNG" height="30" width="30"/> </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
                     <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="nucampNavbar">
                 <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="services.html"><i class="fa fa-list fa-lg"></i>Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html"><i class="fa fa-address-card fa-lg"></i>About</a></li>
-                    
+                    <li class="nav-item active"><a class="nav-link" href="#"> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                 </ul>
+                <span class="navbar-text ml-auto">
+                    <a class="nav-link" id="loginButton">Login</a>
+                </span> 
             </div>
         </div>
     </nav>
     <!-- home carousel -->
-    <div>
-        <div class="row row-content mt-4">
-            <div class="col-md-8 mx-auto">
+    <div id="carouselContainer" class="container-fluid">
+        <div class="row row-content">
+            <div class="col col-sm-8 col-md-6 mx-auto mt-3">
                 <div id="homeCarousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
@@ -102,22 +100,22 @@
                         <li data-target="#homeCarousel" data-slide-to="2" ></li>
                     </ol>
                     <div class="carousel-inner">
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="img/educationalProfessionals.jpg" alt="educational professional">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/ed_prof.jpg" alt="educational professional">
                             <div class="carousel-caption">
                                 <h3> Educational Professionals </h3>
                                 <p class="d-none d-sm-block"> This application is for professionals in education.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="img/streamlineLogistics.jpg" alt="stream line logistics">
+                            <img class="d-block w-100" src="img/logistics.jpg" alt="stream line logistics">
                             <div class="carousel-caption">
                                 <h3>Streamline Logistics </h3>
                                 <p class="d-none d-sm-block"> Use this application to streamline communcation between teachers and substitute teachers.</p>
                             </div>
                         </div>
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src="img/allGrades.jpg" alt="all grades">
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/all_grades_.jpg" alt="all grades">
                             <div class="carousel-caption">
                                 <h3> All Grades</h3>
                                 <p class="d-none d-sm-block">This application is for all grades K-12.</p>
@@ -142,9 +140,9 @@
     <!-- teacher and sub cards -->
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 mt-4">
+            <div class="col-sm-6 mt-3">
                 <div class="card bg-dark text-white index-card">
-                    <img class="card-img" src="/img/teacher1.jpeg" alt="teacher image">
+                    <img class="card-img" src="/img/teacher_pic_index.jpg" alt="teacher image">
                     <div class="card-img-overlay">
                         <h5 class="card-title index-cardTitle" style="padding: 22px;" >Teachers</h5>
                     </div>
@@ -152,7 +150,7 @@
             </div>
             <div class="col-sm-6 mt-4">
                 <div class="card bg-dark text-white index-card">
-                    <img class="card-img" src="/img/subTeacher.png" alt="sub image">
+                    <img class="card-img" src="/img/sub_pic_index.jpg" alt="sub image">
                     <div class="card-img-overlay">
                         <h5 class="card-title index-cardTitle">Substitute <span><br></span> Teachers</h5>
                     </div>
@@ -160,7 +158,6 @@
             </div>
         </div>
     </div>
-    
 
 <!-- footer -->
 

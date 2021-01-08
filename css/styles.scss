@@ -1,12 +1,12 @@
 // variables
 
-$color-primary: slategray;
-$color-secondary: darkslategray;
+$color-primary: darkkhaki;
+$color-secondary: rgb(139, 149, 160);
 $color-tertiary: rgb(162, 169, 177);
 $color-dark: hsl(232, 93%, 24%);
 $color-black-transparent: rgba(0, 0, 0, 0.5);
 $color-secondary-transparent: rgba( 47, 97, 97, 0.5);
-$doc-font: 'Kufam', cursive;
+$doc-font: 'Quicksand', sans-serif;
 
 
 // all
@@ -19,13 +19,20 @@ header {
 }
 
 body {
-    background-color: $color-tertiary;
+    font-family: $doc-font;
+    background-color: rgb(238, 238, 238);
 }
 
 a, a:hover {
     color: inherit;
     text-decoration: none;
   }
+
+.site-footer{
+    background-color: $color-secondary;
+    padding: 35px;
+    color: white;
+}
 
 // placeholders to italic 
 
@@ -46,7 +53,7 @@ a, a:hover {
 
 .jumbotron {
     padding: 15px;
-    background-color: slategray;
+    background-color: $color-primary;
     color: white;
     margin: 0;
 }
@@ -58,7 +65,7 @@ a, a:hover {
     background-color: $color-secondary;
 
     a:hover {
-        background-color: $color-secondary-transparent;
+        background-color: rgb(178, 191, 204);
     }
 }
 
@@ -81,13 +88,8 @@ a, a:hover {
     background-color: $color-black-transparent;
 }
 
-.carousel {
-    border-radius: 10px;
-    border: solid $color-secondary;
-}
-
-.carousel-item img{
-    border-radius: 8px;
+#carouselContainer{
+    padding: 0;
 }
 
 #carouselButton {
@@ -113,8 +115,10 @@ a, a:hover {
 // index.cards
 
 .index-card {
-    border-radius: 10px;
-    border: solid $color-secondary;
+    border-radius: 9px;
+    img {
+        border-radius: 9px;
+    }
 }
 
 .index-cardTitle{
@@ -122,14 +126,6 @@ a, a:hover {
     padding: 10px;
     background-color: $color-black-transparent;
     border-radius: 10px;
-}
-
-// footer
-
-.site-footer{
-    background-color: $color-secondary;
-    padding: 35px;
-    color: white;
 }
 
 
@@ -192,7 +188,7 @@ a, a:hover {
     color: white;
 }
 
-// services
+// services.html
 
 .servicesCard{
     border-radius: 8px;
