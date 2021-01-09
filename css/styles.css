@@ -79,6 +79,9 @@ a, a:hover {
   background-color: darkkhaki;
   border: darkkhaki solid; }
 
+#loginModal a {
+  text-decoration: underline; }
+
 .index-card {
   color: white;
   border-radius: 9px; }
@@ -89,7 +92,8 @@ a, a:hover {
   text-align: center;
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 10px; }
+  border-radius: 10px;
+  padding: 22px; }
 
 #regHeader {
   background-color: #8b95a0;

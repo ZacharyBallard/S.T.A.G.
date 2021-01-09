@@ -126,6 +126,11 @@ a, a:hover {
         border: darkkhaki solid;
     }
 
+    a {
+        text-decoration: underline;
+
+    }
+
 }
 
 // index.cards
@@ -143,6 +148,7 @@ a, a:hover {
     padding: 10px;
     background-color: $color-black-transparent;
     border-radius: 10px;
+    padding: 22px;
 }
 
 

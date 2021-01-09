@@ -194,11 +194,11 @@
     <!-- teacher and sub cards -->
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 mt-3">
+            <div class="col-sm-6 mt-4">
                 <div class="card bg-dark index-card">
                     <img class="card-img" src="/img/teacher_pic_index.jpg" alt="teacher image">
                     <div class="card-img-overlay">
-                        <h5 class="card-title index-cardTitle" style="padding: 22px;" >Teachers</h5>
+                        <h5 class="card-title index-cardTitle" >Teachers</h5>
                     </div>
                 </div>
             </div>
@@ -236,26 +236,6 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
-    <script>
-    $(document).ready(() =>{
-        $(".carousel").carousel( { interval: 3000 } );
-        $("#carouselButton").on('click', () => {
-            if ($("#carouselButton").children("i").hasClass("fa-pause")) {
-                $(".carousel").carousel("pause");
-                $("#carouselButton").children("i").removeClass("fa-pause");
-                $("#carouselButton").children("i").addClass("fa-play");
-            } else {
-                $(".carousel").carousel("cycle");
-                $("#carouselButton").children("i").removeClass("fa-play");
-                $("#carouselButton").children("i").addClass("fa-pause"); 
-            }
-        });
-
-        $('#loginButton').on('click',() => {
-            $('#loginModal').modal('show');
-        });
-    });
-    </script>
 <!-- endbuild -->
 
 </body>
